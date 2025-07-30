@@ -1,0 +1,31 @@
+{
+  "usuario": {
+    "nome": "Rodrigo Bellis Vargas",
+    "idade": 65,
+    "preferencias": {
+      "idioma": "pt-BR",
+      "tamanho_fonte": "grande",
+      "legenda": true
+    }
+  },
+  "videos_tutoriais": [
+    {
+      "titulo": "Como usar o transporte",
+      "descricao": "Explicação simples sobre como utilizar ônibus e metrô",
+      "duracao": "2:30",
+      "url_video": "https://exemplo.com/video1"
+    },
+    {
+      "titulo": "Tomar remédio",
+      "descricao": "Passo a passo de como organizar e tomar os medicamentos",
+      "duracao": "1:45",
+      "url_video": "https://exemplo.com/video2"
+    },
+    {
+      "titulo": "Usar o caixa eletrônico",
+      "descricao": "Demonstração animada de como sacar dinheiro e ver saldo",
+      "duracao": "3:10",
+      "url_video": "https://exemplo.com/video3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "id": "video1",
+      "titulo": "Como abrir uma conta digital pelo celular",
+      "descricao": "Tutorial passo a passo para abrir uma conta bancária digital usando o aplicativo.",
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/embed/ID_CONTA_DIGITAL"
+    },
+    {
+      "id": "video2",
+      "titulo": "Como cadastrar uma chave Pix",
+      "descricao": "Explicação simples e rápida sobre como criar e cadastrar uma chave Pix no seu banco.",
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/embed/ID_PIX"
+    },
+    {
+      "id": "video3",
+      "titulo": "Como pagar usando QR Code",
+      "descricao": "Demonstração prática de como fazer pagamentos com QR Code usando o celular.",
+      "tipo": "arquivo-local",
+      "url": "videos/pagamento-qr-code.mp4"
+    },
+    {
+      "id": "b444",
+      "titulo": "Como ouvir musica e mexer no celular ao mesmo tempo",
+      "descricao": "OUVIR MUSICAS ",
+      "url": "https://www.youtube.com/embed/rN6ColDkkmU",
+      "tipo": "youtube"
+    }
+  ]
+}

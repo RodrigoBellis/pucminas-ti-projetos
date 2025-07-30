@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Página Inicial - Cadastro de Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        section.intro {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        form button {
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Nosso Site</h1>
+    </header>
+
+    <section class="intro">
+        <p>Este é um site simples onde você pode se cadastrar para acessar conteúdos exclusivos e novidades.</p>
+    </section>
+
+    <section class="cadastro">
+        <h2>Cadastro de Usuário</h2>
+        <form id="cadastroForm">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required />
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <script>
+        // Exemplo simples de captura do envio do formulário
+        document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // impede o envio real para servidor
+
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const senha = document.getElementById('senha').value;
+
+            alert(`Cadastro realizado com sucesso!\nNome: ${nome}\nEmail: ${email}`);
+
+            // Aqui poderia ir código para enviar esses dados a um backend
+            this.reset(); // limpa formulário
+        });
+    </script>
+</body>
+</html>

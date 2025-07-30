@@ -1,0 +1,25 @@
+{
+  "name": "analfabetismo-digital",
+  "version": "1.0.0",
+  "description": "Back end com JSONServer. Projeto de TI para periodo 1 do curso de sciencia da computacao da PUC Minas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx json-server ./db/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEI-PUC-Minas-PPLCC-TI/atividade-01-analfebistismo-digital.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ICEI-PUC-Minas-PPLCC-TI/atividade-01-analfebistismo-digital/issues"
+  },
+  "homepage": "https://github.com/ICEI-PUC-Minas-PPLCC-TI/atividade-01-analfebistismo-digital#readme",
+  "devDependencies": {}
+}

@@ -1,0 +1,32 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: 
+authors:
+  - family-names: Cortat De Oliveira
+    given-names: Rafael
+  - family-names: Bellis
+    given-names: Rodrigo
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names:
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Nepomuceno Curto
+    given-names: Hayala
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Amy Saldanha Rivero
+    given-names: Ilo
+keywords:
+  - analfebetismo digital
+  - educacao
+  - digital
+repository-code: https://github.com/ICEI-PUC-Minas-PPLCC-TI/atividade-01-analfabetismo-digital
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14

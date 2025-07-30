@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f2f4f7;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Seções */
+section {
+  background-color: white;
+  margin-top: 30px;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Botões */
+.btn {
+  background-color: #2980b9;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px 10px 10px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #1a5980;
+  transform: scale(1.05);
+}
+
+/* Artigos */
+.artigos {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+.artigos.ativo {
+  max-height: 500px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2c3e50;
+  color: white;
+  font-size: 0.95em;
+  margin-top: 60px;
+  border-top: 3px solid #1c1c1c;
+}
+
+

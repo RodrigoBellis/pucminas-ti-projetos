@@ -1,0 +1,218 @@
+{
+  "artigos": [
+    {
+      "id": "0",
+      "titulo": "Artigo 1",
+      "descricao": "Artigo teste",
+      "Passos": [
+        {
+          "Imagem": "https://placehold.co/300x200?text=1",
+          "TituloPasso": "Titulo Do Passo 1",
+          "Numero": 1,
+          "TextPasso": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam finibus nunc sed ornare. Nullam et libero euismod, hendrerit ante ac, eleifend orci. Sed aliquet tortor vitae ex fermentum, euismod dictum augue iaculis. Vestibulum et lobortis urna. Nullam aliquet enim sed venenatis euismod. Curabitur a vehicula sapien, eu malesuada ipsum. Donec at viverra felis. Donec vestibulum ipsum nec nulla placerat, et sodales nibh viverra. Nullam dignissim magna blandit ante rutrum sagittis. Nullam porta tincidunt mi, in consequat est mattis vitae. Ut mauris lorem, auctor sed velit vitae, lobortis aliquam risus. "
+        },
+        {
+          "Imagem": "https://placehold.co/300x200?text=2",
+          "TituloPasso": "Titulo do Passo 2",
+          "Numero": 2,
+          "TextPasso": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam finibus nunc sed ornare. Nullam et libero euismod, hendrerit ante ac, eleifend orci. Sed aliquet tortor vitae ex fermentum, euismod dictum augue iaculis. Vestibulum et lobortis urna. Nullam aliquet enim sed venenatis euismod. Curabitur a vehicula sapien, eu malesuada ipsum. Donec at viverra felis. Donec vestibulum ipsum nec nulla placerat, et sodales nibh viverra. Nullam dignissim magna blandit ante rutrum sagittis. Nullam porta tincidunt mi, in consequat est mattis vitae. Ut mauris lorem, auctor sed velit vitae, lobortis aliquam risus. "
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "titulo": "Como Usar o Banco Digital",
+      "descricao": "Instrucoes sobre como usar banco digital",
+      "Imagem": "",
+      "notes": "",
+      "Passos": [
+        {
+          "Imagem": "..\\..\\assets\\images\\artigo - banco digital\\Primeira foto.jpg",
+          "TituloPasso": "Abrir o aplicativo",
+          "Numero": 1,
+          "TextPassos": "Toque no ícone do banco no celular. Geralmente ele está na tela inicial ou na pasta “Apps”."
+        },
+        {
+          "Imagem": "..\\..\\assets\\images\\artigo - banco digital\\Segunda Foto.png",
+          "TituloPasso": "Entrar com segurança",
+          "Numero": 2,
+          "TextPassos": "Coloque sua senha ou use sua digital para acessar. Nunca compartilhe sua senha com outras pessoas."
+        },
+        {
+          "Imagem": "..\\..\\assets\\images\\artigo - banco digital\\Terceira foto.png",
+          "TituloPasso": "Consultar saldo",
+          "Numero": 3,
+          "TextPassos": "Na tela principal, toque em “Saldo” ou “Conta” para ver quanto você tem."
+        },
+        {
+          "Imagem": "..\\..\\assets\\images\\artigo - banco digital\\Quarta foto.png",
+          "TituloPasso": "Fazer pagamentos",
+          "Numero": 4,
+          "TextPassos": "Use o botão “Pagar” ou “PIX” para pagar contas e transferir dinheiro. Siga as instruções da tela com calma."
+        },
+        {
+          "Imagem": "..\\..\\assets\\images\\artigo - banco digital\\Quinta foto.png",
+          "TituloPasso": "Ajuda",
+          "Numero": 5,
+          "TextPassos": "Em caso de dúvida, peça ajuda para alguém de confiança ou ligue para o suporte do banco."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "O que é inclusão digital?",
+      "descricao": "Explica como a inclusão digital pode transformar vidas, promovendo o acesso à informação e à cidadania.",
+      "Passos": [
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "Desafios enfrentados por idosos na era digital",
+      "descricao": "Relata as dificuldades que pessoas mais velhas enfrentam com tecnologia e como apoiá-las nesse processo.",
+      "Passos": [
+      ]
+      
+    },
+    {
+      "id": "4",
+      "titulo": "A importância da educação digital nas escolas",
+      "descricao": "Mostra como o ensino sobre o uso de tecnologias pode ser integrado ao currículo escolar.",
+      "Passos": [
+      ]
+    },
+    {
+      "id": "5",
+      "titulo": "Como políticas públicas podem reduzir o analfabetismo digital",
+      "descricao": "Analisa ações governamentais para ampliar o acesso à internet e capacitação tecnológica em regiões vulneráveis.",
+      "Passos": [
+      ]
+    },
+    {
+      "id": "6",
+      "titulo": "Aplicativos acessíveis para quem tem dificuldade com leitura",
+      "descricao": "Lista apps que usam ícones, áudio e linguagem simples para facilitar a navegação.",
+      "Passos": [
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "video1",
+      "titulo": "Como abrir uma conta digital pelo celular",
+      "descricao": "Tutorial passo a passo para abrir uma conta bancária digital usando o aplicativo.",
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/embed/ID_CONTA_DIGITAL"
+    },
+    {
+      "id": "video2",
+      "titulo": "Como cadastrar uma chave Pix",
+      "descricao": "Explicação simples e rápida sobre como criar e cadastrar uma chave Pix no seu banco.",
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/embed/ID_PIX"
+    },
+    {
+      "id": "video3",
+      "titulo": "Como pagar usando QR Code",
+      "descricao": "Demonstração prática de como fazer pagamentos com QR Code usando o celular.",
+      "tipo": "arquivo-local",
+      "url": "videos/pagamento-qr-code.mp4"
+    }
+  ],
+  "navegacao": [
+    {
+      "id": "redes-sociais",
+      "titulo": "Redes Sociais",
+      "subitens": [
+        {
+          "id": "instagram",
+          "titulo": "Instagram"
+        },
+        {
+          "id": "youtube",
+          "titulo": "YouTube"
+        },
+        {
+          "id": "facebook",
+          "titulo": "Facebook"
+        }
+      ]
+    },
+    {
+      "id": "bancos-digitais",
+      "titulo": "Bancos Digitais",
+      "subitens": [
+        {
+          "id": "abrir-conta",
+          "titulo": "Abrir Conta"
+        },
+        {
+          "id": "pix",
+          "titulo": "Chave Pix"
+        },
+        {
+          "id": "qr-code",
+          "titulo": "Pagamento com QR Code"
+        }
+      ]
+    },
+    {
+      "id": "entretenimento",
+      "titulo": "Entretenimento",
+      "subitens": [
+        {
+          "id": "streaming",
+          "titulo": "Streaming de Vídeo"
+        },
+        {
+          "id": "jogos",
+          "titulo": "Jogos Online"
+        },
+        {
+          "id": "musica",
+          "titulo": "Música Digital"
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "titulo": "Contato",
+      "subitens": [
+        {
+          "id": "fale-conosco",
+          "titulo": "Fale Conosco"
+        },
+        {
+          "id": "suporte",
+          "titulo": "Suporte Técnico"
+        }
+      ]
+    }
+  ],
+  "pagina_inicial": {
+    "titulo": "Bem-vindo ao Site de Inclusão Digital",
+    "descricao": "Aqui você encontra tutoriais simples e diretos para aprender a usar a internet.",
+    "botoes": [
+      {
+        "titulo": "Como usar Email",
+        "link": "/tutorial-email"
+      },
+      {
+        "titulo": "Navegador Web",
+        "link": "/tutorial-navegador"
+      },
+      {
+        "titulo": "Redes Sociais",
+        "link": "/tutorial-redes"
+      }
+    ]
+  },
+  "usuarios": [
+    {
+      "id": "e4c7",
+      "login": "rafac",
+      "senha": "220milrafa",
+      "nome": "Rafael Cortat",
+      "email": "rafacortat@gmail.com"
+    }
+  ]
+}

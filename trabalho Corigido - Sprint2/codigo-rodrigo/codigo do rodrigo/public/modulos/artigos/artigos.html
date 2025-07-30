@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artigos sobre Analfabetismo Digital</title>
+  <link rel="stylesheet" href="../../assets/css/estilo.css">
+
+</head>
+<body>
+  <header>
+    <h1>Artigos sobre Analfabetismo Digital</h1>
+    <p>Veja conteúdos que ajudam a entender e combater o analfabetismo digital</p>
+  </header>
+
+  <main>
+    <section>
+      <ul id="lista-artigos"></ul>
+      <a href="../inicio/inicio.html" class="btn">Voltar a Pagina Inicial</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Nosso Trabalho sobre Analfabetismo Digital
+  </footer>
+
+  <script>
+    fetch("../../assets/data/artigos.json")
+      .then(response => response.json())
+      .then(data => {
+        const lista = document.getElementById("lista-artigos");
+        data.forEach(item => {
+          const li = document.createElement("li");
+          li.innerHTML = `<strong>${item.titulo}:</strong> ${item.descricao}`;
+          lista.appendChild(li);
+        });
+      })
+      .catch(error => {
+        document.getElementById("lista-artigos").innerHTML = "<li>Erro ao carregar os artigos.</li>";
+        console.error("Erro:", error);
+      });
+  </script>
+</body>
+</html>

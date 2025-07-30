@@ -1,0 +1,34 @@
+{
+  "usuario": {
+    "nome": "Rodrigo Bellis Vargas",
+    "idade": 65,
+    "preferencias": {
+      "modo_voz": true,
+      "modo_video": true,
+      "tamanho_fonte": "grande",
+      "idioma": "pt-BR"
+    }
+  },
+  "interface_inicial": [
+    {
+      "botao": "Ouvir Instruções",
+      "icone": "🔊",
+      "funcao": "Reproduz áudio explicativo"
+    },
+    {
+      "botao": "Assistir Vídeos",
+      "icone": "🎥",
+      "funcao": "Abre lista de vídeos tutoriais"
+    },
+    {
+      "botao": "Ler Texto",
+      "icone": "📄",
+      "funcao": "Ativa leitura de texto com câmera"
+    },
+    {
+      "botao": "Sair",
+      "icone": "❌",
+      "funcao": "Fecha o aplicativo"
+    }
+  ]
+}

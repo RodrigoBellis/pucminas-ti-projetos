@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo Do Artigo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="..\..\assets\js\artigos.js"></script>
+    <link rel="stylesheet" href="..\..\assets\css\artigos.css">
+    <style>
+        .title-input-group .form-label {
+            font-size: 1.2em;
+           
+            font-weight: bold;
+        }
+
+        .title-input-group .form-control {
+            font-size: 1.5em;
+            padding: 0.5em 0.75em;
+        }
+
+        .title-row {
+            margin-bottom: 2rem;
+        }
+
+        .step-row .col-md-2 label[for="numero-passo"] {
+            line-height: 1.2;
+        }
+
+        .step-row .col-md-2 label[for="numero-passo"] {
+            vertical-align: top;
+            line-height: 1.3;
+        }
+
+        .image-heading-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-heading-container img {
+            margin-right: 1rem;
+        }
+
+        .download-button-top {
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+            margin-bottom: 1rem;
+            text-align: right;
+        }
+
+        .download-button-side {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            z-index: 100;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 id="nome_artigo">Nome Do Artigo</h1>
+            </div>
+        </div>
+        <section class="artigo_passos">
+            <div class="passo">
+                <div class="row">
+                    <div class="col-md-12 image-heading-container">
+                        <div class="col-md-auto">
+                            <img id="passo_img" src="https://picsum.photos/300/200" alt="Imagem do Passo">
+                        </div>
+                        <div class="col-md-auto">
+                            <h2 id="passo_titulo">Passo Numero 1</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p id="passo_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam finibus nunc sed ornare.
+                        Nullam et libero euismod, hendrerit ante ac, eleifend orci. Sed aliquet tortor vitae ex
+                        fermentum,
+                        euismod dictum augue iaculis. Vestibulum et lobortis urna. Nullam aliquet enim sed venenatis
+                        euismod. Curabitur a vehicula sapien, eu malesuada ipsum. Donec at viverra felis. Donec
+                        vestibulum
+                        ipsum nec nulla placerat, et sodales nibh viverra. Nullam dignissim magna blandit ante rutrum
+                        sagittis. Nullam porta tincidunt mi, in consequat est mattis vitae. Ut mauris lorem, auctor sed
+                        velit vitae, lobortis aliquam risus. </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <button class="btn btn-success download-button-side">Baixar</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
